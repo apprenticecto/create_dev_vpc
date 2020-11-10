@@ -32,7 +32,7 @@ module "ec2_instances" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "~> 2.15"
 
-  name           = "my-ec2-cluster"
+  name           = var.ec2_instances_name
   instance_count = 2
 
   ami                    = var.ec2_instances_ami

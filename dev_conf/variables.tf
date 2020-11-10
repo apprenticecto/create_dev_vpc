@@ -39,6 +39,12 @@ variable "vpc_tags" {
   }
 }
 
+variable "ec2_instances_name" {
+  description = "ec2 instance type"
+  type        = string
+  default     = "my-ec2-cluster"
+}
+
 variable "ec2_instances_ami" {
   description = "ec2 instance ami"
   type        = string
@@ -50,5 +56,6 @@ variable "ec2_instances_type" {
   type        = string
   default     = "t2.micro"
 }
+
 
 
