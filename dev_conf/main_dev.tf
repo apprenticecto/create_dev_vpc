@@ -1,4 +1,4 @@
-# Terraform configuration to set-up a Development VPC on AWS
+# Terraform configuration to set-up a Development VCP with basic EC2 instances
 
 terraform {
   required_providers {
@@ -45,3 +45,5 @@ module "ec2_instances" {
     Environment = "dev"
   }
 }
+
+
