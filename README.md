@@ -16,8 +16,6 @@ Cd into your dev folder and:
 - launch `terraform fmt`
 - launch `terraform apply` and enter 'yes' when prompted.
 
-## Check your infrastructure
-
 At the end of the creation you should see your output variables value:
 ```
 Apply complete! Resources: 22 added, 0 changed, 0 destroyed.
@@ -34,6 +32,12 @@ vpc_public_subnets = [
 ]
 
 ```
+
+## INspct Your Infrastructure
+
+Terraform writes configuration data into a file called `terraform.tfstate`, which you have in your local repo. This file contains the IDs and properties of the resources Terraform created so that Terraform can manage or destroy those resources going forward.
+
+To inspect your infrastructure configuration launch `terraform show`.
 
 ## Destroy Your infrastructure
 
