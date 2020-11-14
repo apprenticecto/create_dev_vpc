@@ -52,7 +52,7 @@ Launch `terraform destroy` and enter 'yes' when prompted.
 
 ## Authors
 
-Module is maintained by [ApprenticeCTO](https://github.com/apprenticecto) with great help from [Terraform AWS Documentation](https://learn.hashicorp.com/collections/terraform/aws-get-started).
+This repository is maintained by [ApprenticeCTO](https://github.com/apprenticecto) with great help from [Terraform AWS Documentation](https://learn.hashicorp.com/collections/terraform/aws-get-started).
 
 ## License
 
