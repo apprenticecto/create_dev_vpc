@@ -7,7 +7,7 @@
 
 In this [repo](https://github.com/apprenticecto/create-aws-ec2-with-terraform) we configured AWS CLI, created an IAM user and created an ec2 to the [default VPC](https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html). 
 
-Now we'll make use of Terraform modules to create a development VPC, deployed onto two [availability zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) in Frankfurt Region, with private addresses, public addresses and [NAT gatway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html) enabled. We'll launch two basic EC2 instances.
+Now, we'll make use of Terraform modules to create a development VPC, deployed onto two [availability zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) in Frankfurt Region, with private addresses, public addresses and [NAT gatway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html) enabled. We'll launch two basic EC2 instances.
 
 This slightly more complex configuration makes use of the following concepts:
 
